@@ -12,7 +12,7 @@ import sqlalchemy.orm.exc
 from sqlalchemy_utils.functions import create_database, drop_database
 from sqlalchemy_utils.types.uuid import UUIDType
 
-from {{cookiecutter.app_name}}.domain.model import Issue, IssueReporter, Assignment
+from {{cookiecutter.app_name}}.domain.models import Issue, IssueReporter, Assignment
 from {{cookiecutter.app_name}}.domain.ports import (
     IssueLog,
     UnitOfWork,

@@ -1,7 +1,7 @@
 import abc
 from collections import defaultdict
 from uuid import UUID
-from .model import Issue
+from .models import Issue
 
 
 class IssueNotFoundException(Exception):
