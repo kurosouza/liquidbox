@@ -1,4 +1,4 @@
-import issues.domain.emails
+import {{cookiecutter.app_name}}.domain.emails
 from {{cookiecutter.app_name}}.domain.model import Issue, IssueReporter
 from {{cookiecutter.app_name}}.domain.ports import UnitOfWorkManager, IssueViewBuilder
 from {{cookiecutter.app_name}}.domain import emails
