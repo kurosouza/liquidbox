@@ -1,8 +1,8 @@
 import logging
 
-from .orm import SqlAlchemy
-from .views import IssueViewBuilder, IssueListBuilder
-from issues.services import ReportIssueHandler, TriageIssueHandler, IssueAssignedHandler, AssignIssueHandler
+from ..orm import SqlAlchemy
+from ..views import IssueViewBuilder, IssueListBuilder
+from {{cookiecutter.app_name}}.services import ReportIssueHandler, TriageIssueHandler, IssueAssignedHandler, AssignIssueHandler
 
 from .emails import LoggingEmailSender
 
