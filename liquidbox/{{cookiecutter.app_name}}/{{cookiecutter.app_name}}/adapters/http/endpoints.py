@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify
 from . import config
 from {{cookiecutter.app_name}}.domain.messages import ReportIssueCommand, AssignIssueCommand
 
-app = Flask('issues')
+app = Flask('{{cookiecutter.app_name}}')
 
 
 @app.before_request
