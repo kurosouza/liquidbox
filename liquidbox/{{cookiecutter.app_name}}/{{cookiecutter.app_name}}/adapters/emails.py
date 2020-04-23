@@ -1,6 +1,6 @@
 import logging
 from typing import Dict, Any
-from issues.domain.emails import EmailSender, MailRequest
+from {{cookiecutter.app_name}}.domain.emails import EmailSender, MailRequest
 
 
 class LoggingEmailSender(EmailSender):

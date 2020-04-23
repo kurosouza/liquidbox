@@ -19,8 +19,8 @@ class MailRequest(NamedTuple):
 
 
 IssueAssignedToMe = MailTemplate(
-    subject=Template("Hi {{assigned_to}} - you've been assigned an issue"),
-    body=Template("{{description}}"))
+    subject=Template("Hi {assigned_to} - you've been assigned an issue"),
+    body=Template("{description}"))
 
 
 class EmailSender:
