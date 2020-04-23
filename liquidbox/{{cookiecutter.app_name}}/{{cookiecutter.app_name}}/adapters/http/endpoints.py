@@ -1,7 +1,7 @@
 import uuid
 from flask import Flask, request, jsonify
 from . import config
-from issues.domain.messages import ReportIssueCommand, AssignIssueCommand
+from {{cookiecutter.app_name}}.domain.messages import ReportIssueCommand, AssignIssueCommand
 
 app = Flask('issues')
 

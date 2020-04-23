@@ -6,10 +6,10 @@ from issues.services import ReportIssueHandler, TriageIssueHandler, IssueAssigne
 
 from .emails import LoggingEmailSender
 
-import issues.domain.messages as msg
-from issues.domain.ports import MessageBus
+import {{cookiecutter.app_name}}.domain.messages as msg
+from {{cookiecutter.app_name}}.domain.ports import MessageBus
 
-db = SqlAlchemy('sqlite:///issues.db')
+db = SqlAlchemy('sqlite:///{{cookiecutter.app_name}}.db')
 db.configure_mappings()
 db.create_schema()
 
